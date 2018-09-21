@@ -1,0 +1,41 @@
+{
+  "name": "auto-docker-setup",
+  "version": "0.1.0",
+  "description": "Auto docker-configuration-files maker for react.js & vue.js.",
+  "author": {
+    "name": "lopun",
+    "email": "david16@kaist.ac.kr",
+    "url": "http://lopun.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lopun/auto-docker-setup.git"
+  },
+  "main": "./lib/app.js",
+  "bin": {
+    "auto-docker-setup": "bin/setup.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "keywords": [
+    "cli",
+    "npm",
+    "nodejs",
+    "automation",
+    "docker",
+    "react.js",
+    "vue.js"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "open": "0.0.5",
+    "progress": "^2.0.0"
+  }
+}
